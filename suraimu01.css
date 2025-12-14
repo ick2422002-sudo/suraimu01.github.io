@@ -1,1 +1,80 @@
+/* suraimu01.css */
 
+/* === 全体とリセット === */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif, 'Meiryo', sans-serif; /* シンプルで読みやすいフォント */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* ごく薄いグレーの背景 */
+    color: #333; /* 濃いグレーの文字色 */
+}
+
+/* === ヘッダー === */
+header {
+    background-color: #005662; /* 落ち着いたダークシアン系の色 */
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1); /* 控えめな影 */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 1.1em;
+    opacity: 0.9;
+}
+
+/* === メインコンテンツエリア === */
+main {
+    max-width: 900px; /* コンテンツの最大幅を設定 */
+    margin: 25px auto; /* 左右中央寄せ */
+    padding: 0 20px;
+}
+
+/* === セクション === */
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 6px; /* 角を少し丸める */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08); /* 非常に薄い影 */
+}
+
+section h2 {
+    color: #005662; /* ヘッダーの色と合わせる */
+    border-bottom: 2px solid #e0e0e0; /* 控えめな下線 */
+    padding-bottom: 10px;
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+/* === リスト（ul, li） === */
+ul {
+    list-style-type: none; /* デフォルトの黒丸を非表示 */
+    padding-left: 0;
+}
+
+li {
+    background-color: #f9f9f9; /* リスト項目に薄い背景色 */
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    border-left: 5px solid #005662; /* メインカラーで強調 */
+    border-radius: 3px;
+}
+
+/* === フッター === */
+footer {
+    background-color: #444; /* やや暗いグレー */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
